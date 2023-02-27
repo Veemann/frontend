@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    width:80%;
+    margin: auto;
+    
+    padding: 0px;
+}
+.card1{
+    background-color: hsl(244, 38%, 16%);
+    width:50%;
+    padding:30px;
+}
+.card2{
+    width:50%;
+    background-color:hsl(277, 64%, 61%);
+}
+.all{
+    display: flex;
+    padding: 70px;
+    margin:auto;
+    height:auto;
+}
+.text{
+    color:hsl(0, 0%, 100%);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    font-size: 40px;
+}
+.text1{
+    color:hsla(0, 0%, 100%, 0.6);
+}
+
+.first{
+    color:hsl(0, 0%, 100%);
+    font-size:20px;
+    display:block;
+    margin:0px;
+    padding:0px;
+}
+.first1{
+    color:hsl(0, 0%, 100%);
+    margin:0px;
+    padding:0px;
+}
+.eaty{
+    display: flex;
+    min-height: 200px;
+    justify-content: space-between;
+}
+.first2{
+    color:hsla(0, 0%, 100%, 0.6);
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
