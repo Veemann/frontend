@@ -1,0 +1,142 @@
+@media screen and (min-width:560px){
+    
+
+a :hover{
+    background-color:aqua;
+}
+
+.right{
+   background-image: url("images/image-product-mobile.jpg");
+   width:50%;
+   height: auto;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+.left{
+   width:50%;
+   height:auto;
+   padding:40px;
+}
+.all{
+   display: flex;
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 15px;
+   margin: 30px 30px;
+
+   
+}
+.taggy{
+   letter-spacing: 5px;
+   color:  hsl(228, 12%, 48%);
+}
+.taggy1{
+   color:black;
+   font-family:'Montserrat';
+   font-size: 40px;
+   font-weight: bolder;
+}
+.taggy2{
+   color:  hsl(228, 12%, 48%);
+   font-size: 20px;
+   letter-spacing: 4px;
+   font-family:'Montserrat' ;
+}
+button{
+   background-color: hsl(158, 36%, 37%) ;
+}
+body{
+   background-color: hsl(30, 38%, 92%);
+}
+.no{
+   font-size: 40px;
+   color:hsl(158, 36%, 37%) ;
+   font-weight: bolder;
+   font-style: 'Montserrat';
+}
+button{
+   width: 90%;
+   padding: 20px 20px;
+   margin: auto;
+   border-radius: 10px;
+   border:none;
+}
+.no1{
+   font-size: 14px;
+   text-decoration: line-through;
+}
+}
+
+@media screen and (max-width:560px){
+ a :hover{
+     background-color:aqua;
+}
+
+.right{
+    background-image: url("images/image-product-mobile.jpg");
+     width:100%;
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+.left{
+    width:100%;
+    height:auto;
+    padding:40px;
+}
+.all{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: 30px 30px;
+
+    
+}
+.taggy{
+    letter-spacing: 5px;
+    color:  hsl(228, 12%, 48%);
+}
+.taggy1{
+    color:black;
+    font-family:'Montserrat';
+    font-size: 40px;
+    font-weight: bolder;
+}
+.taggy2{
+    color:  hsl(228, 12%, 48%);
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family:'Montserrat' ;
+}
+button{
+    background-color: hsl(158, 36%, 37%) ;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.no{
+    font-size: 40px;
+    color:hsl(158, 36%, 37%) ;
+    font-weight: bolder;
+    font-style: 'Montserrat';
+}
+button{
+    width: 90%;
+    padding: 20px 20px;
+    margin: auto;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.no1{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+}
+
+
